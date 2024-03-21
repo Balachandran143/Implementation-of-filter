@@ -31,7 +31,7 @@ i) Using Averaging Filter
 import cv2
 import numpy as np
 import matplotlib.pyplot as plt
-image1 = cv2.imread('cheetah.jpg')
+image1 = cv2.imread('chameleon.jpg')
 image2 = cv2.cvtColor(image1, cv2.COLOR_BGR2RGB)
 
 kernel = np.ones((11,11), np. float32)/121
